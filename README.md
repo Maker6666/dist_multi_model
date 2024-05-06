@@ -2,7 +2,7 @@
 Our distilled student models are available. You can download from: https://huggingface.co/maker666/dist_multi_model/tree/main
 
 ## How to use
-To perform model inference, test code generation capability, run (in senteval/data/downstream/):   
+To perform model inference, test code generation capability, run:   
 ```javascript copy
 python models_generate.py --ckpt_dir "../dist_multi_model"
 ```
