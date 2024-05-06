@@ -49,7 +49,7 @@ def main(
         top_p=top_p,
     )
 
-    with open("humaneval1_350m", "w") as f_out:
+    with open("inference_result", "w") as f_out:
         for item in results:
             f_out.write(json.dumps(item) + "\n")
 
