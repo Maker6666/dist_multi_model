@@ -1,1 +1,0 @@
- You can download student model  from: https://huggingface.co/maker666/dist_multi_model/tree/main
