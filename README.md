@@ -4,7 +4,7 @@ Our distilled student models are available. You can download from: https://huggi
 ## How to use
 To perform model inference, test code generation capability, run (in senteval/data/downstream/):   
 ```javascript copy
-python models_generate.py
+python models_generate.py --ckpt_dir "../dist_multi_model"
 ```
 You can customize the prompt content and  the number of students in models_generate.py
 ## Humaneval Evaluation
